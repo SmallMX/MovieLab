@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:movielab/widgets/section_title.dart';
 
 class ItemPagePlot extends StatelessWidget {

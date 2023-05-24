@@ -6,7 +6,7 @@ import 'package:movielab/constants/types.dart';
 import 'package:movielab/models/hive/convertor.dart';
 import 'package:movielab/pages/main/main_controller.dart';
 import 'package:movielab/pages/main/search/search.dart';
-import 'package:movielab/pages/main/search/search_bar/search_bar.dart';
+import 'package:movielab/pages/main/search/search_bar/search_bar.dart' as local;
 import 'package:movielab/pages/main/search/search_bar/search_bar_controller.dart';
 import 'package:movielab/pages/shared/item_exhibitor/item_box/actor_box/expanded_actor_box.dart';
 import 'package:movielab/pages/shared/item_exhibitor/item_box/expanded_item_box/expanded_item_box.dart';
@@ -28,7 +28,7 @@ class SearchPage extends StatelessWidget {
               backgroundColor: kSecondaryColor,
               toolbarHeight: 75,
               elevation: 1.0,
-              title: const SearchBar(),
+              title: const local.SearchBar(),
               bottom: TabBar(
                 unselectedLabelColor: Colors.white.withOpacity(0.4),
                 splashFactory: NoSplash.splashFactory,

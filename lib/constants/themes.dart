@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+// import 'package:google_fonts/google_fonts.dart' as temp;
 import 'package:movielab/constants/colors.dart';
 
 class AppThemes {
@@ -13,8 +14,8 @@ class AppThemes {
         style: TextButton.styleFrom(
             textStyle: const TextStyle(color: Colors.white),
             primary: Colors.white)),
-    textTheme: GoogleFonts.ubuntuTextTheme(
-      ThemeData.dark().textTheme,
-    ),
+    // textTheme: temp.GoogleFonts.ubuntuTextTheme(
+    //   ThemeData.dark().textTheme,
+    // ),
   );
 }
